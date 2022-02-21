@@ -7,7 +7,6 @@ on:
 
 jobs:
   first-job:
-    name: running first github actions
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
