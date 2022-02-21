@@ -1,0 +1,16 @@
+name: Loader
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  buildrun:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build
+        run: |
+          echo "hello world"
+
